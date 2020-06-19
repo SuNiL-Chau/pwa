@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women PWA</title>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <script src="./js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="./manifest.json">
+</head>
+<body class="grey lighten-4">
+
+    <!-- top nav -->
+    <nav class="z-depth-0">
+        <div class="nav-wrapper container">
+            <a href="./">Women<span>PWA</span></a>
+            <span class="right grey-text text-darken-1">
+                <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+            </span>
+        </div>
+    </nav>
+
+    <!-- Side nav -->
+    <ul id="side-menu" class="sidenav side-menu">
+        <li>
+            <a class="subheader">WomenPWA</a>
+        </li>
+        <li>
+            <a href="./" class="waves-effect">Home</a>
+        </li>
+        <li>
+            <a href="./pages/about.html" class="waves-effect">About</a>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a href="./pages/contact.html" class="waves-effect">
+                <i class="material-icons">mail_outline</i>
+                Contact
+            </a>
+        </li>
+    </ul>
+
+    <!-- notes -->
+  <div class="notes container grey-text text-darken-1">
+    <div class="card-panel note white row">
+      <img src="/img/logo.png" alt="note thumb" style="width: 50px;">
+      <div class="note-details">
+        <div class="note-title">Sati notes</div>
+        <div class="note-details">In sati if husband dies the widow is burnt alive with the husband.</div>
+      </div>
+      <div class="note-delete">
+        <i class="material-icons">delete_outline</i>
+      </div>
+    </div>
+    <div class="card-panel note white row">
+      <img src="/img/logo.png" alt="note thumb" style="width: 50px;">
+      <div class="note-details">
+        <div class="note-title">Sati notes</div>
+        <div class="note-details">In sati if husband dies the widow is burnt alive with the husband.</div>
+      </div>
+      <div class="note-delete">
+        <i class="material-icons">delete_outline</i>
+      </div>
+    </div>
+  </div>
+
+  <div class="center">
+    <a class="btn-floating btn-small add-btn sidenav-trigger" data-target="side-form">
+      <i class="material-icons">add</i>
+    </a>
+  </div>
+
+  <!-- add note side nav -->
+  <div id="side-form" class="sidenav side-form">
+    <form class="add-note container section">
+      <h6>New note</h6>
+      <div class="divider"></div>
+      <div class="input-field">
+        <input placeholder="e.g. Dowery" id="title" type="text" class="validate">
+        <label for="title">Note Title</label>
+      </div>
+      <div class="input-field">
+        <input placeholder="e.g. beaten, sexually abused, etc." id="details" type="text" class="validate">
+        <label for="details">Details</label>
+      </div>
+      <div class="input-field center">
+        <button class="btn-small">Add</button>
+      </div>
+    </form>
+  </div>
+
+<script src="./js/my.js"></script>    
+</body>
+</html>

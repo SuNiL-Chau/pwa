@@ -1,0 +1,36 @@
+{
+    "name": "Women PWA",
+    "short_name": "WomenPWA",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#166fff",
+    "theme_color": "#a0c3fb",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./img/icons/wr-32px.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "./img/icons/wr-64px.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "./img/icons/wr-128px.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./img/icons/wr-256px.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "./img/icons/wr-512px.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
